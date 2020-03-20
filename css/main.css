@@ -1,4 +1,22 @@
 
-h1{
-    color: green;
+.jumbotron{
+    background-color:rgb(241, 241, 253);
+    text-align: center;
+    
 }
+ 
+.lastN{
+    position: absolute;
+    left: 200px;
+}
+
+.jumbotron h1{
+    color: green;
+} 
+#in_info{
+    background-color: gray;
+} 
+/*
+#in_info{
+    background-image:url(../images/greySky.jpg) ;
+} */
