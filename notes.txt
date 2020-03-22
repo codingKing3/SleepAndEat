@@ -1,0 +1,9 @@
+field           type
+id           PRIMARY KEY
+firstname    VARCHAR(20)
+lastname     VARCHAR(20)
+numberOfGuest    INT
+room_type    VARCHAR(10)
+duration     INT
+check_in     date
+check_out    date
