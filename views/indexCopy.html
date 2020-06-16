@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type = "text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href="../css/main.css">
+    <title>Room Reservations</title>
+</head>
+<body>
+    <div class="jumbotron">
+       <h1> Sleep and Eat - Reservations </h1>
+    </div>
+    <form name="make_reservation" method="POST" class="make_reservation">
+    <div class = "container" id="in_info" >   
+       <hr>  
+      <label>First Name</label> <label class="lastN">Last Name</label> <br>
+      <input type="text" class="first" name="firstname"> <input type="text" class="last" name="lastname"> <br>
+
+      <label>Number of guest in party </label><br>
+      <input type="text" class = "info"><br><br>
+      <label  for="rooms"> Room Type </label><br>
+      <select id="rooms" name="rooms">
+         <option value="Single">Single</option>
+         <option value="Double">Double</option>
+         <option value="Suite">Suite</option>
+
+      </select><br><br>
+      <label id = "L3">Duration of Stay (in days)</label><br>
+      <input type="text" name="stayTime">
+      <div id="in_out">
+         <!--  --> 
+        <label class="tab">Check in Date</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label class = "tab">Check-Out Date</label><br>
+        <input type="text" class="stay_time">
+
+      </div>
+
+      <hr>
+      <div id="inside">
+          <button type = "button" class="btn btn-light">Check Availability</button>
+          <button type = "button" class="btn btn-light">Make Reservation</button>
+      </div>
+     </div>
+    </form>
+
+ <script src="../js/bootstrap.min.js"></script>
+ <script src="../js/jquery-3.4.1.min.js"></script>
+</body>   
+ 
+</html>
