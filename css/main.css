@@ -1,13 +1,13 @@
 
 .jumbotron{
-    background-color:rgb(241, 241, 253);
-    text-align: center;
+    background-color: rgb(241, 241, 253);
+    text-align      : center;
     
 }
  
 .lastN{
     position: absolute;
-    left: 300px;
+    left    : 300px;
 }
 
 .jumbotron h1{
